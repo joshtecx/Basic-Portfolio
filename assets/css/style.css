@@ -16,6 +16,13 @@ nav {
     
 }
 
+img {
+    height: 200px;
+    width: 250px;
+    padding: 10px;
+    clear: both;
+    overflow: auto;
+}
 
 header {
     background: #ffffff;
@@ -37,6 +44,7 @@ footer {
     margin-top: 20px;
     clear: both;
     overflow: auto;
+    width: 100%;
 
 }
 
@@ -48,7 +56,7 @@ h1 {
     padding: 10px;
     font-weight: bold;
     text-align: center;
-    margin-left: 20px;
+    margin: 0;
 }
 
 h2 {
@@ -72,6 +80,8 @@ h3 {
 p {
     padding: 20px;
     color: #666;
+    float: right;
+    
 }
 
 a {
@@ -83,14 +93,15 @@ aside {
     width: 270px;
     background: #ffffff;
     padding: 20px;
-    
 }
 
 section {
-
+    float: left;
     width: 650px;
     background: #ffffff;
-    margin-left: 5%;
+    margin-left: 2%;
+    clear: both;
+    overflow: auto;
     
 }
 
@@ -114,6 +125,16 @@ section {
     height: 10px;
     margin: 20px;
 }
+
+.group::after {
+   content: "";
+   display: table;
+   clear: both;
+}
+
+/* .clearfix {
+   overflow: auto;
+} */
 
 /* link style  */
 
