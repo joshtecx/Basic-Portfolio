@@ -10,49 +10,53 @@
     <script src="main.js"></script>
 </head>
 <body>
-    <header> 
-        <h1 id="name">Josh Tec</h1>
-        <nav> 
-            <a class="nav-bar" href="#">About</a>
-            <a class="nav-bar" href="portfolio.html">Portfolio</a>
-            <a class="nav-bar" href="contact.html">Contact</a>
-        </nav>
+    <header id="masterhead"> 
+        <div class="container">
+            <a href="index.html" id="logo">Josh Tec</a>
+            <nav> 
+                <a class="nav-bar" href="index.html">About</a>
+                <a class="nav-bar" href="portfolio.html">Portfolio</a>
+                <a class="nav-bar" href="contact.html">Contact</a>
+            </nav>
+        </div>
     </header>
 
-    <div class="about group">
+    <div id="main-container" class="container">
 
-        <section>
-            <h2>About Me</h2>
+        <section class="main-section">
+            <h1>About Me</h1>
 
             <img src="assets/images/IMG_2793.jpg" alt="">
             <div >
                 <p >I'm Josh Tec, and I am an aspiring developer. <br>
                 I am currently attending a coding bootcamp at Georgia Tech, <br>
-                which has been awesome so far. I just recently <br>
-                started an IT job, and it has been motivation for me <br>
-                to excell in this course because I am already ready for a change.
-                </p>
+                which has been awesome so far. </p>
             </div>
 
             <p>Outside of work and school, I am interested in sports and music... <br>
             Pretty original, right?</p>
             
         </section>    
-        <aside>
-            <h3>Connect with Me</h3>
-    
-            <a class="contact" href="">Git</a>
-    
-            <a class="contact" href="">Linked</a>
-    
-            <a class="contact" href="">Stack</a>
+
+        <aside class="sidebar">
+            <div id="connect">
+                <h2>Connect with Me</h2>
+        
+                <a class="contact" href="">Git</a>
+        
+                <a class="contact" id="linkedin" href=""><img src="" alt="">Linked</a>
+        
+                <a class="contact" href="">Stack</a>
+            </div>
         </aside>
     </div>
 
-    
+    <footer>
+        <div class="container">
+            &#169; Copyright 2018 Josh Tec
+        </div>                    
+    </footer>
 </body>
 
-<footer>
-        <h4> &#169; Copyright 2018 Josh Tec</h4>                    
-</footer>
+
 </html>

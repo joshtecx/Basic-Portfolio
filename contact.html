@@ -10,27 +10,65 @@
     <script src="main.js"></script>
 </head>
 <body>
-    <nav>
-        <h1>Josh Tec</h1>
-        <ul>
-            <li><a>About</a></li>
-    
-            <li><a>Portfolio</a></li>
-    
-            <li><a>Contact</a></li>
-        </ul>
-    </nav>
+    <header id="masterhead"> 
+        <div class="container">
+            <a href="index.html" id="logo">Josh Tec</a>
+            <nav> 
+                <a class="nav-bar" href="index.html">About</a>
+                <a class="nav-bar" href="portfolio.html">Portfolio</a>
+                <a class="nav-bar" href="contact.html">Contact</a>
+            </nav>
+        </div>
+        </header>
 
-    <div class="connect">
+        <div id="main-container" class="container">
 
-        <h2>Connect with Me</h2>
-    
-        <a href="">Git</a>
-    
-        <a href="">Linked</a>
-    
-        <a href="">Stack</a>
-    
-    </div>
+            <section class="main-section">
+                <h1>Contact Me</h1>
+                
+                <form id="contact-form">
+                    <ul>
+                        <li>
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name"
+                            placeholder="Donovan Mitchell" required="required">
+                        </li>
+
+                        <li>
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email"
+                            placeholder="joshiscool@gmail.com" required="required">
+                        </li>
+
+                        <li>
+                            <label for="message">Message</label>
+                            <textarea name="message" id="message" ></textarea>
+                        </li>
+                    </ul>
+                    <input type="submit">
+                </form>
+                
+                
+            </section>    
+            <aside class="sidebar">
+                <div id="connect">
+                    <h2>Connect with Me</h2>
+            
+                    <a class="contact" href="">Git</a>
+            
+                    <a class="contact" id="linkedin" href=""><img src="" alt="">Linked</a>
+            
+                    <a class="contact" href="">Stack</a>
+                </div>
+            </aside>
+        </div>
+        
+    <footer>
+        <div class="container">
+            &#169; Copyright 2018 Josh Tec
+        </div>                    
+    </footer>
 </body>
+
+
 </html>
