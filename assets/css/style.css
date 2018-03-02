@@ -121,7 +121,16 @@ h3,
     border-bottom: 2px solid #eeeeee;
 }
 
+.social {
+    width: 60px;
+    height: 60px;
+    margin-right: 5px;
+    margin-top: 8px;
+}
 
+.social:last-child {
+    margin-right: 0;
+}
 
 /* main */
 
@@ -210,7 +219,7 @@ input[type=submit] {
 }
 
 
-img {
+.main-image {
     height: 200px;
     width: 250px;
     padding: 10px;
