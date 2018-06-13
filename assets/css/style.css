@@ -178,6 +178,10 @@ h3,
     border-bottom: 0;
 }
 
+.workImg {
+    height: 200px;
+    
+}
 /* contact page */
 
 #contact-form ul {
